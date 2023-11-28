@@ -3,7 +3,7 @@ from words import words
 from palavras import palavras
 import string
 
-lingua = input("Escolha uma língua para jogar! Português (P) ou Inglês (I)").upper()
+lingua = input("Escolha uma língua para jogar! Português (P) ou Inglês (I) ").upper()
 def palavras_corretas(palavras):
     palavra = random.choice(palavras)
     while '-' in palavra or ' ' in palavra:
@@ -95,5 +95,7 @@ def forca():
 
 if lingua == "P":
     forca()
-if lingua == "I":
+elif lingua == "I":
     hangman()
+else:
+    print("Caractere inválido, por favor, use apenas as letras p ou i para escolher a língua")
