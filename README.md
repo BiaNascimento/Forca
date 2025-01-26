@@ -1,0 +1,1 @@
+Projeto de aprendizado de Python onde o usuário pode jogar o tradicional jogo da forca. Nesse projeto, a máquina sorteia uma palavra de uma lista e o usuário precisa adivinhar antes que as tentativas acabem.
